@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/payment"
+                android:title="Payment Options"/>
+
+            <item
+                android:id="@+id/orders"
+                android:title="Orders History" />
+
+            <item
+                android:id="@+id/feedback"
+                android:title="Send feedback"/>
+
+            <item
+                android:id="@+id/AboutApp"
+                android:title="Rate us on play store"/>
+            <item
+                android:id="@+id/Logout"
+                android:title="Logout"/>
+
+        </group>
+
+    </menu>

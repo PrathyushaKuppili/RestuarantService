@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".RegisterActivity">
+
+<ImageView
+    android:id="@+id/txtregistration"
+    android:layout_width="500dp"
+    android:layout_height="200dp"
+    android:src="@drawable/register_page"/>
+
+<EditText
+    android:id="@+id/etregname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/enter_your_name"
+    android:layout_below="@+id/txtregistration"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:inputType="text"
+    android:drawableLeft="@drawable/ic_enter_name"
+    android:maxLines="2"
+    android:maxLength="50"
+    android:drawablePadding="5dp"/>
+
+<EditText
+    android:id="@+id/etregemail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your mail id"
+    android:layout_below="@+id/etregname"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:inputType="text"
+    android:drawableLeft="@drawable/ic_email_id"
+    android:maxLines="2"
+    android:maxLength="50"
+    android:drawablePadding="5dp"/>
+
+<EditText
+    android:id="@+id/etregphone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter phone number"
+    android:layout_below="@+id/etregemail"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:inputType="number"
+    android:drawableLeft="@drawable/ic_phone_number"
+    android:maxLines="1"
+    android:maxLength="10"
+    android:drawablePadding="5dp"/>
+
+<Button
+    android:id="@+id/btnlogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:layout_centerInParent="true"
+    android:textColor="#ffffff"
+    android:background="#4fc3f7"
+    android:textSize="20sp"
+    android:layout_below="@+id/etregphone"
+    android:padding="10dp"
+    android:layout_margin="30dp"/>
+
+
+
+</RelativeLayout>
